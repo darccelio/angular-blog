@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+// import {dataFake} from '../../data/dataFake'
 
 @Component({
   selector: 'app-menu-title',

@@ -1,9 +1,20 @@
 .container__articles{
+  width: 95%;
   margin-top: 30px;
-
+  padding: 50px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
+  column-gap: 5%;
 }
 
+.articles__main {
+  max-width: 50%;
+}
+.articles__others {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
 
